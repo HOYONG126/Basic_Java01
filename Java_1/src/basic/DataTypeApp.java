@@ -43,5 +43,16 @@ public class DataTypeApp {
 		System.out.println("=========================================");
 		int count;
 		// System.out.println("count="+count);  //변수에 값이 저장되어 있지 않은 상태에서 변수를 사용할 경우 에러 발생
+		System.out.println("10진수 100="+100);
+		System.out.println("8진수 100="+0100);    //100앞에 0 붙일시 8진수로 표현된다
+		System.out.println("16진수 100="+0x100);    //16진수로 표현된다                 //참고
+		System.out.println("정수값"+21212121212222L);   //INT 범위가 넘을 때는 뒤에 L(long)을 붙여준다. f붙이는경우는(long long)
+		//byte(1Byte),short(2Byte),int(4Byte),long(8Byte)
+		//double(8Byte),float(4byte) float도 숫자 뒤에 f붙여줘야함
+		System.out.println("float"+4.55555f);
+		System.out.println("double"+4.55555);
+		//실수값을 지수형태로 표현하여 사용 가능
+		System.out.println("=========================================");
+		
 	}
 }
