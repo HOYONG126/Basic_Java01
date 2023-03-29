@@ -9,30 +9,36 @@ public class DataTypeApp {
 		 * => String 클래스 : 문자열을 표현하기 위한 자료형(클래스)
 		 */
 		//리터럴 : 프로그램에서 값을 표현
-		System.out.println("정수형");
+		System.out.print("정수형 : ");
 		int nData;
 		nData=40;
 		System.out.println(nData);
 		
-		System.out.println("실수형");
+		System.out.print("실수형 : ");
 		double dData;
 		dData=4.555;
 		System.out.println(dData);
 		
-		System.out.println("문자형");
+		System.out.print("문자형 : ");
 		char cData;
 		cData='A';
 		System.out.println(cData);
 		
-		System.out.println("boolean 형");
+		System.out.print("boolean 형 : ");
 		boolean isChecked=true;
 		System.out.println(isChecked);
 		
-		int tempData=12;
-		tempData=7;           //바뀜
-		tempData=3;
-		System.out.println(tempData); //가장 마지막에 설정한 데이터만 저장된다.
-		//int tempData=120; //중복설정 불가능 >> 변수명은 고유(유일)해야한다.
+		System.out.println("=========================================");
+		
+		System.out.println(2+0+2+3+"은 토끼띠입니다.");  //의도에 반한 오류
+		System.out.println(""+2+0+2+3+"은 토끼띠입니다.");  //의도에 반한 오류를 수정 //NullString
+		System.out.println("올해는"+2+0+2+3+"년입니다.");
+		
+		System.out.println("=========================================");
+		int num1=100,num2=200;
+		System.out.println("연산결과="+num1+num2);  //의도에 반한 오류
+		System.out.println("연산결과="+(num1+num2));//의도에 반한 오류를 수정 //괄호사용
+		System.out.println("연산결과="+num1*num2);//사칙연산 순서적용 //그래도 곱하기여도 괄호사용하자
 		
 		
 	}
