@@ -16,7 +16,7 @@ public class DataTypeApp {
 		
 		System.out.print("실수형 : ");
 		double dData;
-		dData=4.555;
+		dData=4.6655;
 		System.out.println(dData);
 		
 		System.out.print("문자형 : ");
@@ -40,5 +40,8 @@ public class DataTypeApp {
 		int korScore=88, engScore=90;
 		int sum=korScore+engScore;
 		System.out.println(sum);
+		System.out.println("=========================================");
+		int count;
+		// System.out.println("count="+count);  //변수에 값이 저장되어 있지 않은 상태에서 변수를 사용할 경우 에러 발생
 	}
 }
