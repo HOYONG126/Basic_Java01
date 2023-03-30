@@ -71,5 +71,7 @@ public class DataTypeApp {
 		//문자열(String)리터럴: " "안에 0개 이상의 문자들로 표현
 		String word = "Korea is Asia";
 		System.out.println("한국위치 = " + word);
+		
+		int million=10_000_000;
 	}
 }

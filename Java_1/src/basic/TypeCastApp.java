@@ -5,7 +5,7 @@ public class TypeCastApp {
 	public static void main(String[] args) {
 		//자료형 변환(TypeCast) : 값의 자료형을 일시적으로 변환하여 사용하는 방법
 		// 자동 형변환(JVM), 강제 형변환(프로그래머)
-		/*1.자동 형변환: 자료형이 다른 값을 연산하기 위한 JVM(JAVA VIRTUAL MACHINE)이 자료형을 일시적 변환
+		/*1.자동 형변환: 자료형이 다른 값을 연산하기 위한 JVM(JAVA VIRTUAL MA CHINE)이 자료형을 일시적 변환
 		 * EX) 10+13.5 (정수형+실수형=실수형) 정수형이 실수형으로 자동 형변환
 		 */
 		System.out.println("결과="+(3+1.5));//3이 double로 자동 형변환 되어 4.5라는 자동 형변환이 됨.
