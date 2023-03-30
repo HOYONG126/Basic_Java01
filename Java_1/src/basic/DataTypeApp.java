@@ -21,12 +21,16 @@ public class DataTypeApp {
 		
 		System.out.print("문자형 : ");
 		char cData;
-		cData='A';
+		cData='A'; //문자형은 리터럴을 ' ' 안에 표현
 		System.out.println(cData);
 		
 		System.out.print("boolean 형 : ");
-		boolean isChecked=true;
+		boolean isChecked=true; //리터럴이 false true 만 들어감
+		boolean isChecked2=40>50; //리터럴이 false true 만 들어감
 		System.out.println(isChecked);
+		System.out.println(isChecked2);
+		System.out.println(41>=40);
+		
 		System.out.println("=========================================");
 		System.out.println(2+0+2+3+"은 토끼띠입니다.");  //의도에 반한 오류
 		System.out.println(""+2+0+2+3+"은 토끼띠입니다.");  //의도에 반한 오류를 수정 //NullString
@@ -56,5 +60,16 @@ public class DataTypeApp {
 		System.out.println("double"+4.55555);
 		//실수값을 지수형태로 표현하여 사용 가능
 		System.out.println("=========================================");
+		//=> 회피문자 '\n' : Enter , '\t' : tab , '//' : \ +따옴표, '\0'=NULL;
+		System.out.println("\0"+"\\"+"\""+"\'"+"\t"+"\n"+"\'");
+		System.out.println("\0");
+		
+		char c=29352; 	//char로 숫자 유니코드로 리터럴저장 가능
+		System.out.println(c);
+		System.out.println("===============================");
+		System.out.println("문자열");
+		//문자열(String)리터럴: " "안에 0개 이상의 문자들로 표현
+		String word = "Korea is Asia";
+		System.out.println("한국위치 = " + word);
 	}
 }
