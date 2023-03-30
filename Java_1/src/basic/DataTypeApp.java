@@ -49,10 +49,12 @@ public class DataTypeApp {
 		System.out.println("정수값"+21212121212222L);   //INT 범위가 넘을 때는 뒤에 L(long)을 붙여준다. f붙이는경우는(long long)
 		//byte(1Byte),short(2Byte),int(4Byte),long(8Byte)
 		//double(8Byte),float(4byte) float도 숫자 뒤에 f붙여줘야함
+		
+		//필수 접미사.  float -f, long-l, long long-f
+		
 		System.out.println("float"+4.55555f);
 		System.out.println("double"+4.55555);
 		//실수값을 지수형태로 표현하여 사용 가능
 		System.out.println("=========================================");
-		
 	}
 }
