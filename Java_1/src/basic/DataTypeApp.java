@@ -71,7 +71,14 @@ public class DataTypeApp {
 		//문자열(String)리터럴: " "안에 0개 이상의 문자들로 표현
 		String word = "Korea is Asia";
 		System.out.println("한국위치 = " + word);
-		
-		int million=10_000_000;
+		System.out.println("===============================");
+		int million=10_000_000; //숫자 사이 언더바 사용가능
+		//소수 셋째짜리까지만 표현하시오
+		double d3=1.23456789;
+		System.out.println((int)(d3*1000)/1000.0);  //소수셋째
+		//소수 첫째자리에서 올림 
+		System.out.println((int)(d3+0.9));
+		//반올림 
+		System.out.println((int)(d3+0.5));
 	}
 }
