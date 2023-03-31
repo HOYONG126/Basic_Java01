@@ -61,7 +61,7 @@ public class IfApp {
 				grade = "D";
 			} else if (jumsu < 60) {
 				grade = "F";
-			}
+			}  
 			System.out.println("학점은 : " + grade + ", 점수는" + jumsu + "입니다.");
 		} else {
 			System.out.println("0~100에 맞지 않는 수 입니다.");
