@@ -9,15 +9,28 @@ public class ForApp {
 //초기식 -> 조건식(참) -> 블럭 내부 명령 실행 -> 증감식 -> 조건식(참)-> 블럭 내부 명령 실행->증감식 -> 조건식(거짓)
 //주의) 무한루프 빠질 수 있음 >> 프로그램 강제종료
 //초기식과 증감식은 , 기호를 사용하여 나열 작성 가능
-//초기식, 조건식, 증감식은 생략가능 - 조건식이 생략된 경우 무조건 참.	
+//초기식, 조건식, 증감식은 생략가능 - 조건식이 생략된 경우 무조건 참.
 	public static void main(String[] args) {
 		//"Java Programming" 화면에 출력
 		System.out.println("Java Programming");
 		System.out.println("====================================");
-		for(int i=1; i<=5; i++) {
+		for(int i=1; i<=5; i++) { 
 			System.out.println("Java Programming");
 		}
 		System.out.println("=================================");
+		for(int i=1; i<=10; i+=2) {    //2씩 증가시켜도된다.
+			System.out.println("Java Programming");
+		}
+		System.out.println("=================================");
+		for(int i=1; i<=5; i++) {
+			System.out.println(i);
+		}
+		System.out.println("===================================");
+		for(int i=2; i<=10; i+=2) {
+			System.out.print(i+"\t");
+		}
+		
 	}
+
 
 }
