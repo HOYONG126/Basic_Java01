@@ -37,10 +37,18 @@ public class ForApp {
 			sum+=i;
 		}
 		System.out.println("합은 : "+sum+"입니다.");
-		
-		
-		
-		
+		System.out.println("=====================");
+		//20~80까지 합 구하기
+			int total = 0;
+			int begin=90, end=80;
+			if(begin>end) {
+				System.out.println("[에러] 시작값이 종료값보다 작아야합니다.");
+				System.exit(0); //프로그램 강제 종료 메소드 호출
+			}
+			for(int i=begin; i<=end; i++) {
+				total+=i;
+			}
+			System.out.println("합은 : "+total+"입니다.");
 		
 	}
 }
