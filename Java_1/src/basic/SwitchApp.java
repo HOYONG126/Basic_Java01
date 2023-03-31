@@ -27,7 +27,6 @@ public class SwitchApp {
 		default:
 			System.out.println("지구로 이동합니다.");
 		}
-		
 		System.out.println("================================");
 		
 	}
