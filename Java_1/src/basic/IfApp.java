@@ -6,7 +6,8 @@ public class IfApp {
 		// => 선택문(if, switch), 반복문(for, while), 기타(break, continue, return)
 		/*
 		 * -if 조건식에 의해 명령 선택실행 if(조건식){명령; 명령; ... } 조건식 통과후 명령이 하나만 작성된 경우에만 블럭{}기호 생략
-		 * 가능 else if(조건식){명령; 명령;...} 생략가능 else 생략가능
+		 * 가능 else if(조건식){명령; 명령;...} 생략가능 
+		 * else 생략가능
 		 */
 		int su = 90;
 		if (su >= 90) {
