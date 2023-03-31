@@ -16,6 +16,19 @@ public class SwitchApp {
 		 *   =>case 키워드로 제공되는 값은 리터럴 또는 상수만 작성가능
 		 *   
 		 */
+		int choice=4;
+		switch(choice) {
+		case 1: 
+			System.out.println("수성으로 이동");	break;
+		case 2: 
+			System.out.println("금성으로 이동");	break;
+		case 3: 
+			System.out.println("화성으로 이동");	break;
+		default:
+			System.out.println("지구로 이동합니다.");
+		}
+		
+		System.out.println("================================");
 		
 	}
 
