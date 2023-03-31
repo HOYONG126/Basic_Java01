@@ -8,7 +8,8 @@ public class IfApp {
 		 * -if 조건식에 의해 명령 선택실행
 		 * if(조건식){명령; 명령; ... }
 		 *   		  조건식 통과후 명령이 하나만 작성된 경우에만 블럭{}기호 생략 가능
-		 * else
+		 * else if(조건식){명령; 명령;...} 생략가능
+		 * else 생략가능
 		 */
 		int su=90;
 		if(su>=90) {
@@ -47,5 +48,29 @@ public class IfApp {
 			System.out.println("현재 변수값은 \'거짓\' 입니다.");
 		}
 		System.out.println("================================================");
+		//학점 90~ :A , 80~:B ,  70~:C ,60~:D,~50:F
+		String grade; // 학점 저장
+		
+		int jumsu=98;
+		if(jumsu<=100&&jumsu>=90) {
+			grade="A";
+		}else if(90>jumsu&&80<=jumsu) {
+			grade="B";
+		}
+		else if(80>jumsu&&70<=jumsu) {
+			grade="C";
+		}
+		else if(70>jumsu&&60<=jumsu) {
+			grade="D";
+		}
+		else if(60>jumsu) {
+			grade="F";
+		}
+		else{
+			System.out.println("0~100 범위를 벗어났습니다.");
+		}
+		stem.out.println( jumsu +"점"+ grade +"학점");
+		System.out.println("================================================");
+		
 	}
 }
