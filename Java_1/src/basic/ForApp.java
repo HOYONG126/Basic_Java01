@@ -43,12 +43,25 @@ public class ForApp {
 			int begin=90, end=80;
 			if(begin>end) {
 				System.out.println("[에러] 시작값이 종료값보다 작아야합니다.");
-				System.exit(0); //프로그램 강제 종료 메소드 호출
+			//	System.exit(0); //프로그램 강제 종료 메소드 호출
 			}
 			for(int i=begin; i<=end; i++) {
 				total+=i;
 			}
 			System.out.println("합은 : "+total+"입니다.");
+			System.out.println("===================================");
+		//시작값이 종료값보다 큰 경우 두 변수에 저장된 값을 서로 바꾸어 저장되도록 작성
+			begin=10; end=0;
+			if(begin>end) {
+				int temp=end;
+				end=begin;
+				begin=temp;
+			}
+			sum=0;
+			for(int i=begin; i<=end; i++) {
+				sum+=i;
+			}
+			System.out.println(sum);
 		
 	}
 }
