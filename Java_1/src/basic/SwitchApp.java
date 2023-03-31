@@ -51,6 +51,18 @@ public class SwitchApp {
 			grade="F"; break;
 		}
 		System.out.println("학점은 ="+grade);
+		System.out.println("==========================================");
+		String kor="둘";
+		String eng="";
+		
+		//문자열을 비교하여 명령 선택 실행 가능
+		switch(kor) {
+		case "하나": eng="One"; break;
+		case "둘": eng="Two"; break;
+		case "셋": eng="Three"; break;
+		}
+		
+		System.out.println("[결과]"+kor+" = "+eng);
+		System.out.println("==============================================================");
 	}
-
 }

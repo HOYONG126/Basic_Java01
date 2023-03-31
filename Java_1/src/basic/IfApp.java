@@ -67,6 +67,6 @@ public class IfApp {
 			System.out.println("0~100에 맞지 않는 수 입니다.");
 		}
 		System.out.println("================================================");
-
+		
 	}
 }
