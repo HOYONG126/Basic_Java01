@@ -33,7 +33,7 @@ public class IfExample {
 				else {
 					System.out.println("평년입니다.");
 				}
-			}
+			}  
 			else {
 				System.out.println("윤년입니다.");
 			}
