@@ -24,11 +24,14 @@ public class IfExample {
 		// => 년도를 4로 나누어 나머지가 0인 경우 윤년
 		// => 위 조건을 만족하는 년도 중 100으로 나누어 나머지가 0인 경우 평년
 		// => 위 조건을 만족하는 년도 중 400으로 나누어 나머지가 0인 경우 윤년
-		int year=2023;
+		int year=2024;
 		if(year%4==0) {
 			if(year%100!=0) {
 				if(year%400==0) {
 					System.out.println("윤년입니다.");
+				}
+				else {
+					System.out.println("평년입니다");
 				}
 			}
 			else {
