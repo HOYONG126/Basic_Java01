@@ -49,27 +49,26 @@ public class IfApp {
 		}
 		System.out.println("================================================");
 		//학점 90~ :A , 80~:B ,  70~:C ,60~:D,~50:F
-		String grade; // 학점 저장
-		
+		String grade=""; // 학점 저장
 		int jumsu=98;
 		if(jumsu<=100&&jumsu>=90) {
 			grade="A";
-		}else if(90>jumsu&&80<=jumsu) {
+		}else if(80<=jumsu) {
 			grade="B";
 		}
-		else if(80>jumsu&&70<=jumsu) {
+		else if(70<=jumsu) {
 			grade="C";
 		}
-		else if(70>jumsu&&60<=jumsu) {
+		else if(60<=jumsu) {
 			grade="D";
 		}
-		else if(60>jumsu) {
+		else if(jumsu>=0) {
 			grade="F";
 		}
 		else{
 			System.out.println("0~100 범위를 벗어났습니다.");
 		}
-		
+		System.out.println(grade+"학점 입니다.");
 		System.out.println("================================================");
 		
 	}
