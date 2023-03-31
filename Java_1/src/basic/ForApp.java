@@ -12,6 +12,12 @@ public class ForApp {
 //초기식, 조건식, 증감식은 생략가능 - 조건식이 생략된 경우 무조건 참.	
 	public static void main(String[] args) {
 		//"Java Programming" 화면에 출력
+		System.out.println("Java Programming");
+		System.out.println("====================================");
+		for(int i=1; i<=5; i++) {
+			System.out.println("Java Programming");
+		}
+		System.out.println("=================================");
 	}
 
 }
