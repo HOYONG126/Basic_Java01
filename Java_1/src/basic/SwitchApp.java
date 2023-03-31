@@ -62,7 +62,6 @@ public class SwitchApp {
 		case "둘": eng="Two"; break;
 		case "셋": eng="Three"; break;
 		}
-		
 		System.out.println("[결과]"+kor+" = "+eng);
 		System.out.println("==============================================================");
 	}
