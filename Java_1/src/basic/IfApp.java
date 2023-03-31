@@ -12,7 +12,7 @@ public class IfApp {
 		int su = 90;
 		if (su >= 90) {
 			System.out.println("su = " + su);
-		}  
+		}
 		if (su >= 90)
 			System.out.println("su = " + su);
 		System.out.println("================================================");
