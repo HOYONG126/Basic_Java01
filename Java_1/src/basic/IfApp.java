@@ -28,14 +28,23 @@ public class IfApp {
 		}
 		else System.out.println("홀수");
 		System.out.println("================================================");
+		//문자변수에 저장된 문자값을 영문자와 비영문자로 구분하여 출력하는 프로그램 작성
 		char mun='0';
 		//char mun2='ㅇ';
-		//문자변수에 저장된 문자값을 영문자와 비영문자로 구분하여 출력하는 프로그램 작성
 		if(mun>='A'&&mun<='Z'||mun>='a'&&mun<='z') {
 			System.out.println("영문자 입니다.");
 		}
 		else {
 			System.out.println("영문자가 아닙니다.");
 		}
+		System.out.println("================================================");
+		boolean sw=true;
+		if(sw==true) {
+			System.out.println("현재 변수값은 \'참\'입니다. ");
+		}
+		else {
+			System.out.println("현재 변수값은 \'거짓\' 입니다.");
+		}
+		System.out.println("================================================");
 	}
 }
