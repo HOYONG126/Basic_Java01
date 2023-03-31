@@ -51,6 +51,7 @@ public class SwitchApp {
 			grade="F"; break;
 		}
 		System.out.println("학점은 ="+grade);
+		
 		System.out.println("==========================================");
 		String kor="둘";
 		String eng="";
