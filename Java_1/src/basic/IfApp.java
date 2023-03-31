@@ -38,8 +38,9 @@ public class IfApp {
 			System.out.println("영문자가 아닙니다.");
 		}
 		System.out.println("================================================");
+		//boolean형이 조건 안으로 들어갈 수 있다.
 		boolean sw=true;
-		if(sw==true) {
+		if(sw) {
 			System.out.println("현재 변수값은 \'참\'입니다. ");
 		}
 		else {
