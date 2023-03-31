@@ -69,7 +69,7 @@ public class IfApp {
 		else{
 			System.out.println("0~100 범위를 벗어났습니다.");
 		}
-		stem.out.println( jumsu +"점"+ grade +"학점");
+		
 		System.out.println("================================================");
 		
 	}
