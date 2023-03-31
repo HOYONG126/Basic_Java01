@@ -29,8 +29,18 @@ public class ForApp {
 		for(int i=2; i<=10; i+=2) {
 			System.out.print(i+"\t");
 		}
+		System.out.println("");
+		System.out.println("===================================");
+		//1~100까지 합 구하기
+		int sum = 0;
+		for(int i=1; i<=100; i++) {
+			sum+=i;
+		}
+		System.out.println("합은 : "+sum+"입니다.");
+		
+		
+		
+		
 		
 	}
-
-
 }
