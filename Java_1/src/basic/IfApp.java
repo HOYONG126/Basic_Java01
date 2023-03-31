@@ -48,7 +48,7 @@ public class IfApp {
 		}
 		System.out.println("================================================");
 		// 학점 90~ :A , 80~:B , 70~:C ,60~:D,~50:F
-		String grade = ""; // 학점 저장
+		String grade=""; // 학점 저장
 		int jumsu = 85;
 		if (jumsu >= 0 && 100 >= jumsu) {
 			if (jumsu >= 90) {
