@@ -8,15 +8,13 @@ public class VariableExample {
 		int area=transverse*length;
 		System.out.println("넓이 : "+ area );
 		
-		System.out.println("");
-		
 		System.out.println("======================================================");
 		//높이가 9이고 밑변의 길이가 7인 삼각형의 넓이를 계산하여 출력하세요.
 		int underBar=7;
 		length = 9;
 		double three = (double)underBar*length/2;
 		System.out.println(three);
-
+		
 		System.out.println("======================================================");
 		//10명의 전체 몸무게가 759Kg인 경우 평균 몸무게를 계산하여 출력하세요.
 		int sum=759;
@@ -32,7 +30,7 @@ public class VariableExample {
 		String name="홍길동";
 		sum=korScore+engScore+mathScore;
 		ave=sum/(double)subject;
-		System.out.println("이름 : "+ name + " 총점 : "+sum+" 평균 : "+ (int)(ave*10)/10.0);
+		System.out.println("이름 : "+ name + ", 총점 : "+sum+", 평균 : "+ (int)(ave*10)/10.0);
 		
 		System.out.println("======================================================");
 	}
