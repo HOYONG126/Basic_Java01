@@ -31,9 +31,6 @@ public class OperatorExample {
 		long allPrice=airplane*(long)disPriceNumber+(airplane*(number-disPriceNumber)*discountPercent/100);
 		System.out.println(allPrice+"원");
 		System.out.println("===============================================");
-
+		
 	}
-
-
-
 }
