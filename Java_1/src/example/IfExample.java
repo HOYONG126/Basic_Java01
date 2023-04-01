@@ -54,7 +54,7 @@ public class IfExample {
 		int kor=89, eng=93, mat=95;
 		if(0>kor||kor>100||0>eng||eng>100||0>mat||mat>100) {
 			System.exit(0);
-		}//실
+		}
 		
 		
 		
