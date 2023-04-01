@@ -40,7 +40,7 @@ public class IfExample {
 		}  
 		else {  
 			System.out.println("평년입니다");
-		} //ㅇㅇ
+		} 
 
 
 		System.out.println("============================================================");
@@ -52,11 +52,29 @@ public class IfExample {
 		// => 평균은 소숫점 두자리까지만 출력하고 나머지는 절삭 처리 하세요.
 		String name="홍길동";
 		int kor=89, eng=93, mat=95;
+		int sum=kor+eng+mat;
+		double ave=sum/3.0;
+		String hakjum="";
 		if(0>kor||kor>100||0>eng||eng>100||0>mat||mat>100) {
+			System.out.println("범위 오류로 프로그램을 종료합니다.");
 			System.exit(0);
 		}
-		//ㅇ ㅇ
-		
+		else if(ave>=90) {
+			hakjum="A";
+		}
+		else if(ave>=80) {
+			hakjum="B";
+		}
+		else if(ave>=70) {
+			hakjum="C";
+		}
+		else if(ave>=60) {
+			hakjum="D";
+		}
+		else {
+			hakjum="F";
+		}
+		System.out.println("이름 : "+name+" , 학점:"+hakjum+", 총점:"+sum+",  평균:"+(int)(ave*100)/100.0);
 		
 		
 
