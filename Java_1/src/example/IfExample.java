@@ -40,7 +40,7 @@ public class IfExample {
 		}  
 		else {  
 			System.out.println("평년입니다");
-		}
+		} 
 
 
 		System.out.println("============================================================");
