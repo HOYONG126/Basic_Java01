@@ -62,6 +62,5 @@ public class ForApp {
 				sum+=i;
 			}
 			System.out.println(sum);
-		
 	}
 }
