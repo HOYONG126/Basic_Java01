@@ -23,7 +23,6 @@ public class ForExample {
 		//1~100 범위의 정수에서 3의 배수들의 합계와 5의 배수들의 합계를 계산하여
 		//3의 배수의 합계에서 5의 배수의 합계를 뺀 결과값을 출력하세요.
 		//ex) 결과 = 633
-		int sum=0;
 		int sum3=0;
 		int sum5=0;
 		for(int i=1; i<=100; i++) {
@@ -34,7 +33,7 @@ public class ForExample {
 				sum5+=i;
 			}
 		}
-		sum=sum3-sum5;
+		int sum=sum3-sum5;
 		System.out.println(sum);
 
 		System.out.println("=========================================");
