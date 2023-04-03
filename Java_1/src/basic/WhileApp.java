@@ -24,12 +24,11 @@ public class WhileApp {
 		System.out.println(n+"번째 접었을 때 사각형은 500개가 넘는다.("+a*2*n+"개)");
 		//1~X 범위의 정수들의 합계가 300이상이 만들어지려면 X가 얼마인지 계산하여 출력하는 프로그램 작성
 		int sum=0;
-		int number=1;
-		while(sum<=300) {
-			sum+=number;
+		int number=0;
+		while(sum<300) {
 			number++;
+			sum+=number;
 		}
-		System.out.println(number+"번째 일 때 300을 초과하고 초과한 값은 : "+sum+"이다.");
+		System.out.println(number+"번째 일 때 300이상이 되고 값은 : "+sum+"이다.");
 }
 }
-
