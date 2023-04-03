@@ -15,13 +15,16 @@ public class ScannerApp {
 	//=>참조변수를 사용하여 참조변수에  저장된 객체의 메소드를 호출해 필요한 기능 구현
 	Scanner scanner=new Scanner(System.in);
 	//키보드로 입력된 값을 문자열로 반환받아 변수에 저장 + 키보드에 입력하고 엔터 눌러줘야함
-	System.out.print("이름 입력 >>");
+	System.out.print("이름 입력 >>");	//변수.next자료형();
 	String name = scanner.nextLine();   //키보드 입력값이 없는 경우 프로그램의 흐름(스레드)이 일시 중지
 	System.out.println(name);
 	//Scanner.nextInt():입력값을 정수값으로 변환하여 반환하는 메소드
 	//키보드로 입려된 값을 정수값으로 변환받아 변수에 저장
-	System.out.print("나이 입력>>");                        //scanner.nextInt()인데 정수형 안할시 예외오류발생(프로그램 강제종료)
-	int age=scanner.nextInt();
+	System.out.print("나이 입력>>");       //scanner.nextInt()인데 정수형 안할시 예외오류발생(프로그램 강제종료)
+	int age=scanner.nextInt();				//실수값인 경우 scanner.nextDouble()
 	System.out.println(age);
+	
+	System.out.println("[결과]"+name+"님의 나이는"+age+"살입니다.");
+	scanner.close(); //스캐너 사용시 닫아줘야함
 }
 }
