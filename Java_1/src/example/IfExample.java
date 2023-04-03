@@ -5,7 +5,7 @@ public class IfExample {
 		//변수에 저장된 문자값을 출력하세요.
 		//단, 변수에 저장된 문자값이 소문자인 경우 대문자로 변환하여 출력하세요.
 		char mun='x';
-		if('a'<=mun&&'z'>=mun) {
+		if('a'<=mun &&'z'>=mun) {
 			mun-=32;  
 		}
 		System.out.println("mun = "+mun);
@@ -41,7 +41,6 @@ public class IfExample {
 		else {  
 			System.out.println("평년입니다");
 		} 
-
 
 		System.out.println("============================================================");
 		//이름이 [홍길동]인 학생이 국어점수 89점, 영어점수 93점, 수학점수 95점을 받은 경우

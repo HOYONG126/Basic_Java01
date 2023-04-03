@@ -62,5 +62,24 @@ public class ForApp {
 				sum+=i;
 			}
 			System.out.println(sum);
+			System.out.println("===================================");
+			for(int i=1, j=5; i<=3; i++,j--) {  //초기식과 증감식을 , 를 사용하여 두개 이상 작성 가능하다. (조건식은 && || 사용)
+				System.out.println("i="+i+",  j="+j);
+			}
+			int i=1;
+			for(;i<5;i++) {//초기식을 밖에서 설정했기때문에 초기식을 생략할 수 있다.  
+				System.out.println(i);
+			}
+			System.out.println("===================================");
+			//밖에서 i 를 설정해서 for를 사용한경우 i는 증감식이 적용되어 5인 상태이다.
+			for(;i>=1;i--) {//초기식을 밖에서 설정했기때문에 초기식을 생략할 수 있다.  
+				System.out.println(i);
+			}
+			System.out.println("===================================");
+			//무한루프
+			for(;;) { //초기식 조건식 증감식 생략
+				
+			}
+			//무한루프 때문에 도달 못한 코드 오류   unreachable 데드코드  System.out.println("");
 	}
 }
