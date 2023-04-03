@@ -40,12 +40,37 @@ public class MultiForApp {
 			System.out.println("");
 		}
 		System.out.println("========================================================");
-		for(int j=1; j<=5; j++) {
+		for(int j=5; j>=1; j--) {
 			for(int i=1; i<=j; i++) {
 			System.out.print("★");
 			}
 			System.out.println("");
 		}
+		System.out.println("========================================================");
+		int q=5;
+		for(int i=1; i<=q; i++) {
+			for(int j=q-i; j>=1; j--) {
+			System.out.print(" ");
+			}
+			for(int k=1; k<=2*i-1; k++) {
+			System.out.print("★");
+			}
+			System.out.println("");
+		}
+
+		System.out.println("========================================================");
+		int n=5;
+		for(int i=1; i<=n; i++) {
+			for(int j=1; j<=n-i; j++) {
+				System.out.print(" ");
+			}
+			for(int k=1; k<=i; k++) {
+				System.out.print("★");
+			}
+			System.out.println(" ");
+		}
+		System.out.println("========================================================");
+		
 	}
 
 }
