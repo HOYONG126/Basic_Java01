@@ -3,7 +3,18 @@ package basic;
 public class ContinueApp {
 
 	public static void main(String[] args) {
-		//continue :반복문에서 명령을 처음부터 다시 실행하기 위해 사용하는 제어문(아래 생략)
+		for(int i=1; i<=5; i++) {
+			if(i==3) continue;
+			System.out.println(i+"\t");
+		}
+		System.out.println();
+		System.out.println("===============================");
+		hoyong:for(int i=1; i<=5; i++) {
+			for(int j=1; j<=5; j++) {
+				if(j==2) continue hoyong;
+				System.out.print(i+"\t"+j);
+			}
+			System.out.println();
+		}
 	}
-
 }
