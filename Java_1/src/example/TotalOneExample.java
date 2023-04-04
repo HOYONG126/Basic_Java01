@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class TotalOneExample {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		
 		int sum=0;
 		int one;
 		for(int i=1; i<=5; i++) {
@@ -21,6 +20,5 @@ public class TotalOneExample {
 			sum+=one;
 		}
 		System.out.println(sum);
-
 	}
 }
