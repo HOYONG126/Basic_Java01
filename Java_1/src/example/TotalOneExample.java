@@ -13,10 +13,9 @@ public class TotalOneExample {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		int sum=0;
-		int one;
 		for(int i=1; i<=5; i++) {
 			System.out.print(i+"번째 정수값을 입력하세요 >> ");
-			one=scanner.nextInt();
+			int one=scanner.nextInt();
 			sum+=one;
 		}
 		System.out.println(sum);
