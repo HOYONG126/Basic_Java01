@@ -54,7 +54,12 @@ public class DoubleArrayApp {
 		value[0]=new int[3];
 		value[1]=new int[2];
 		value[2]=new int[4];
-		
+		System.out.println("value[0]"+value[0]);
+		System.out.println("value[1]"+value[1]);
+		System.out.println("value[2]"+value[2]);
+		System.out.println("================================");
+		//Java는 다차원 배열을 가변배열로 선언가능
+		int[][] array= {{10,20,30},{40,50},{60,70,80,90}};
 		
 		}
 	}
