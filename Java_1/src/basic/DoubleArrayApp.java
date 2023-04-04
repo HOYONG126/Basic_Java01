@@ -60,6 +60,5 @@ public class DoubleArrayApp {
 		System.out.println("================================");
 		//Java는 다차원 배열을 가변배열로 선언가능
 		int[][] array= {{10,20,30},{40,50},{60,70,80,90}};
-		
 		}
 	}
