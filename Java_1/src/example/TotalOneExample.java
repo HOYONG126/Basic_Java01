@@ -20,5 +20,6 @@ public class TotalOneExample {
 			sum+=one;
 		}
 		System.out.println(sum);
+		scanner.close();
 	}
 }

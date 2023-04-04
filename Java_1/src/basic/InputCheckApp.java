@@ -24,6 +24,7 @@ public class InputCheckApp {
 		default: grade="F"; break;
 		}
 		System.out.println("학점은 : "+grade);
+		scanner.close();
 	}
 
 }

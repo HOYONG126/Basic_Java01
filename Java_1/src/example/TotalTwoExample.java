@@ -22,5 +22,6 @@ public class TotalTwoExample {
 			sum+=number;
 		}
 		System.out.println("합계 : "+sum);
+		scanner.close();
 	}
 }
