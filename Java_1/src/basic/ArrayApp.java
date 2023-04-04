@@ -68,7 +68,7 @@ public class ArrayApp {
 		System.out.println("=======================================");
 		//블럭 내부에 값을 나열하여 배열 생성 가능
 //응용		//형식)자료형[] 참조변수={초기값, 초기값, ... };
-		int[] su2= {10,20,30,40,50,60,70,80,90,100};
+		int[] su2= {10,20,30,40,50,60,70,80};
 		
 		//Java에서는 배열을 일괄처리하기 위한 향상된 for 구문 제공
 		//형식) for(자료형 변수명 : 참조변수){명령; ... }
@@ -76,9 +76,27 @@ public class ArrayApp {
 		//배열의 모든 요소값을 제공받은 후 반복문 종료
 		//=>계산, 출력에 대한 일괄처리에 사용
 		for(int temp : su2) {
-			System.out.println(temp+"\t");
+			System.out.print(temp+"\t");
 		}
 		System.out.println();
-		System.out.println("=======================================");
+		System.out.println("======================================");
+		int[] array= {54,8,321,8,5,6,8,15,4,6,8,789,5,1,23,54,87,9,5,2,15,46};
+		//배열의 모든 요소값에 대한 합계를 계산하여 출력하는 프로그램 작성
+		int tot=0;
+		for(int i=0; i<array.length; i++) {
+			tot+=array[i];
+		}
+		System.out.println("합계:"+tot);
+		System.out.println("======================================");
+		//배열 요소값이 30~60범위의 정수값이 저장된 요소의 갯수를 계산하여 출력하는 프로그램
+		int count=0;
+		for(int element:array) {
+			if(element>=30&&element<=60) {
+				count++;
+			}
+		}
+		System.out.println(count);
+		System.out.println("30~60 범위의 요소의 갯수 = "+count);
+		System.out.println("======================================");
 }
 }
