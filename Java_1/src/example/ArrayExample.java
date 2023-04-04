@@ -22,11 +22,8 @@ public class ArrayExample {
 		//    ...
 		//    60대 = 1명
 		int[] age2=new int[6];
-		
 		for(int i=0; i<age.length; i++) {
-			
 			for(int j=1; j<=age2.length; j++) {
-				
 				if(age[i]/10==j) {
 					age2[j-1]++;
 				}
