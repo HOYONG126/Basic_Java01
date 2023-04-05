@@ -38,6 +38,7 @@ public class UpAndDownExample {
 				break;
 			}
 		}
+		scanner.close();
 	}
 }
 
