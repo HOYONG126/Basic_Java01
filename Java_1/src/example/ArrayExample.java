@@ -10,7 +10,7 @@ public class ArrayExample {
 			sum+=age[i];
 			cnt++;
 		}
-		double ave=sum/(double)cnt;
+		int ave=sum/cnt;
 		System.out.println("평균 : "+ave+"살");
 		//배열에 저장된 모든 사람들의 나이 평균을 계산하여 출력하세요.
 		
